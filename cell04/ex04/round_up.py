@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import math
+
+user_input = input("Give me a number: ")
+
+try:
+    number = float(user_input)
+    
+    result = math.ceil(number)
+    
+    print(result)
+
+except ValueError:
+    pass
